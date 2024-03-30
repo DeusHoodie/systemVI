@@ -23,6 +23,6 @@ public class WorleyNoise extends NoiseFunction{
             float dist = (float) Math.sqrt(dx * dx + dy * dy);
             minD = Math.min(minD, dist);
         }
-        return minD;
+        return minD / 400;
     }
 }

@@ -35,7 +35,7 @@ public class NoiseTest extends Game {
         RippleNoise ripple = new RippleNoise(400, 300, 10);
         WhiteNoise white = new WhiteNoise(450, 800, 600);
         ValueNoise val = new ValueNoise(6352, 900);
-        WorleyNoise worley = new WorleyNoise(800, 600, 50, 54547);
+        WorleyNoise worley = new WorleyNoise(800, 600, 50, 64000);
         for (int i = 0; i < window.getWidth(); i++) {
             for (int j = 0; j < window.getHeight(); j++) {
 //                float value = stripes.get(i, j);
